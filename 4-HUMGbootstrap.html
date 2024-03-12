@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>HUMG.bootstrap</title>
+</head>
+
+<style>
+    .news, .noti {
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #0C4CA3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #C9CACC;
+    }
+
+    .news::after, .noti::after {
+        position: absolute;
+        content: "";
+        bottom: -2px;
+        left: 0px;
+        width: 150px;
+        height: 3px;
+        background-color: #0C4CA3;
+    }
+
+    .contentTop1 h1, .contentTop2 h1, .contentTop3 h1, .contentTop4 h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: unset;
+    }
+    .contentTop1 ul, .contentTop2 ul, .contentTop3 ul, .contentTop4 ul {
+        list-style: square;
+    }
+    .contentTop1 li, .contentTop2 li, .contentTop3 li, .contentTop4 li {
+        font-size: 15px;
+        color: #0C4CA3;
+    }
+    .contentTop1 li span, .contentTop2 li span, .contentTop3 li span, .contentTop4 li span {
+        color: black;
+    }
+    .nav {
+        /* margin-top: 20px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav img {
+        border: 1px solid #C9CACC;
+
+    }
+    .contentBottom2 ul {
+        list-style: square;
+    }
+    .contentBottom2 li {
+        color: #0C4CA3;
+        padding-bottom: 20px;
+
+    }
+    .contentBottom2 li span {
+        color: black;
+    }
+    .contentBottom3 h1 {
+        font-size: 15px;
+        color: #0C4CA3;
+        margin-bottom: 20px;
+    }
+    .contentBottom3  ul {
+        list-style: none;
+    }
+    .contentBottom3 li {
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .contentBottom3 li div {
+        
+        margin-right: 15px;
+        height: 100%;
+        font-size: 30px;
+        color: red;
+        /* line-height: 40px; */
+        padding: 5px;
+        border: 1px solid red;
+    }
+    .contentBottom3 li div p {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        color: black;
+    }
+    .contentBottom3 li p {
+        text-align: justify;
+
+    }
+</style>
+
+<body>
+    <div class="container news">tin tức</div>
+    <div class="container contentTop">
+        <div class="contentTop row">
+            <div class="contentTop1 col-lg-3 col-sm-12">
+                <img class="img-fluid" src="/humg1.jpg" alt="">
+                <h1>Trường đại học kỹ thuật ký kết hợp tác về chuyển đổi số trong quản trị đại học</h1>
+                <ul>
+                    <li><span>HUMG tổ chức lễ ký kết thỏa thuận hợp tác chiến lược với PTSC</span></li>
+                    <li><span>7 Trường Đại học Kỹ thuật ký thỏa thuận hợp tác với UBND Tỉnh Yên Bái</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất đón nhận lá cờ Tổ quốc 54m2 được treo tại cột cờ Quốc gia Lũng Cú - Hà Giang</span></li>
+                    <li><span>Bộ trưởng Bộ Giáo dục và Đào tạo gặp gỡ nhà giáo, cán bộ quản lý, nhân viên ngành Giáo dục, Đào tạo năm 2023</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất tổ chức Hội nghị tổng kết 10 năm thực hiện Nghị quyết số 29-NQ/TW</span></li>
+                </ul>
+            </div>
+            <div class="contentTop2 col-lg-3 col-sm-12">
+                <img class="img-fluid" src="/humg2.jpg" alt="">
+                <h1>Trường đại học kỹ thuật ký kết hợp tác về chuyển đổi số trong quản trị đại học</h1>
+                <ul>
+                    <li><span>HUMG tổ chức lễ ký kết thỏa thuận hợp tác chiến lược với PTSC</span></li>
+                    <li><span>7 Trường Đại học Kỹ thuật ký thỏa thuận hợp tác với UBND Tỉnh Yên Bái</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất đón nhận lá cờ Tổ quốc 54m2 được treo tại cột cờ Quốc gia Lũng Cú - Hà Giang</span></li>
+                    <li><span>Bộ trưởng Bộ Giáo dục và Đào tạo gặp gỡ nhà giáo, cán bộ quản lý, nhân viên ngành Giáo dục, Đào tạo năm 2023</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất tổ chức Hội nghị tổng kết 10 năm thực hiện Nghị quyết số 29-NQ/TW</span></li>
+                </ul>
+            </div>
+            <div class="contentTop3 col-lg-3 col-sm-12">
+                <img class="img-fluid" src="/humg3.jpg" alt="">
+                <h1>Trường đại học kỹ thuật ký kết hợp tác về chuyển đổi số trong quản trị đại học</h1>
+                <ul>
+                    <li><span>HUMG tổ chức lễ ký kết thỏa thuận hợp tác chiến lược với PTSC</span></li>
+                    <li><span>7 Trường Đại học Kỹ thuật ký thỏa thuận hợp tác với UBND Tỉnh Yên Bái</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất đón nhận lá cờ Tổ quốc 54m2 được treo tại cột cờ Quốc gia Lũng Cú - Hà Giang</span></li>
+                    <li><span>Bộ trưởng Bộ Giáo dục và Đào tạo gặp gỡ nhà giáo, cán bộ quản lý, nhân viên ngành Giáo dục, Đào tạo năm 2023</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất tổ chức Hội nghị tổng kết 10 năm thực hiện Nghị quyết số 29-NQ/TW</span></li>
+                </ul>
+            </div>
+            <div class="contentTop4 col-lg-3 col-sm-12">
+                <img class="img-fluid" src="/humg4.jpg" alt="">
+                <h1>Trường đại học kỹ thuật ký kết hợp tác về chuyển đổi số trong quản trị đại học</h1>
+                <ul>
+                    <li><span>HUMG tổ chức lễ ký kết thỏa thuận hợp tác chiến lược với PTSC</span></li>
+                    <li><span>7 Trường Đại học Kỹ thuật ký thỏa thuận hợp tác với UBND Tỉnh Yên Bái</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất đón nhận lá cờ Tổ quốc 54m2 được treo tại cột cờ Quốc gia Lũng Cú - Hà Giang</span></li>
+                    <li><span>Bộ trưởng Bộ Giáo dục và Đào tạo gặp gỡ nhà giáo, cán bộ quản lý, nhân viên ngành Giáo dục, Đào tạo năm 2023</span></li>
+                    <li><span>Trường Đại học Mỏ - Địa chất tổ chức Hội nghị tổng kết 10 năm thực hiện Nghị quyết số 29-NQ/TW</span></li>
+                </ul>
+            </div>
+        </div>
+    
+    
+        <div class="nav-container">
+            <div class="nav">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/WebDangbo-v4.png" alt="">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/Bo%20phan%20mot%20cua.png" alt="">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/Eoffice_v4.png" alt="">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/Thudientu_v4.png" alt="">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/Lichtiepcongdan_v4.png" alt="">
+                <img class="col-lg-2 col-md-6 col-12" src="https://humg.edu.vn/content/quangcao/AnhQuangCao/tapchi.png" alt="">  
+            </div>
+    </div>
+
+    </div>
+
+    <div class="noti container">Thông báo</div>
+
+
+    <div class="container contentBottom">
+        <div class="row">
+            <div class="contentBottom1 col-lg-4">
+                <img class="img-fluid" src="/humg5.jpg" alt="">
+                <p>Thông báo kết quả xét công nhận đạt tiêu chuẩn chức danh giáo sư, phó giáo sư năm 2023 tại Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất</p>
+            </div>
+            <div class="contentBottom2 col-lg-4">
+                <ul>
+                    <li><span>Thông báo kết quả xét công nhận đạt tiêu chuẩn chức danh giáo sư, phó giáo sư năm 2023 tại Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất</span></li>
+                    <li><span>Quyết định về việc kiện toàn Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất 2023</span></li>
+                    <li><span>Thông báo về việc đề cử bổ sung thành viên tham gia Hội đồng Giáo sư cơ sở năm 2023</span></li>
+                    <li><span>Thông báo Chương trình tài trợ NCCB trong Khoa học tự nhiên và kỹ thuật năm 2023 (Quỹ Nafosted)</span></li>
+                    <li><span>NCS Phonepaserth SOUKHANOUVONG đã bảo vệ thành công luận án tiến sĩ cấp Trường</span></li>
+                    <li><span>Thông báo Hội nghị quốc tế về Hợp tác nghiên cứu khoa học Việt Nam - Ba Lan lần thứ 7 (Pol-Viet 2023)</span></li>
+                </ul>
+            </div>
+            <div class="contentBottom3 col-lg-4 col-12">
+                <h1>
+                    Sự kiện sắp diễn ra
+                </h1>
+                <ul>
+                    <li>
+                        <div>02/09<p>2023</p></div>
+                        <p>Quyết định về việc kiện toàn Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất 2023</p>
+                    </li>
+                    <li>
+                        <div>02/09<p>2023</p></div>
+                        <p>Quyết định về việc kiện toàn Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất 2023</p>
+                    </li>
+                    <li>
+                        <div>02/09<p>2023</p></div>
+                        <p>Quyết định về việc kiện toàn Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất 2023</p>
+                    </li>
+                    <li>
+                        <div>02/09<p>2023</p></div>
+                        <p>Quyết định về việc kiện toàn Hội đồng Giáo sư cơ sở Trường Đại học Mỏ - Địa chất 2023</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

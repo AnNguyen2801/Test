@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        .container >div{
+            background-color: lightgreen;
+            font-size: 50px;
+            text-align: center;
+            margin: 5px;
+            padding: 30px;
+            width: 300px;
+        }
+        .d5{
+            flex-basis: 425px;
+        }
+        .d8{
+            flex-basis: 45%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div class="d5">5</div>
+        <div class="d5">6</div>
+        <div class="d5">7</div>
+        <div class="d8">8</div>
+        <div class="d8">9</div>
+        <div class="d8">10</div>
+        <div class="d8">11</div>
+    </div>
+</body>
+</html>
